@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8"></meta>
+      <meta name= "author" content="Adrian ACI"></meta>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+      <title>Ingesoft2 project</title>
+      <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"/>
+      <link rel="stylesheet" href="./css/main.css"/>
+    </head>
+    <body>
+      <header>
+         <h1>Ingeniería de Software II</h1>
+        <nav>
+          <ul>
+            <li><a href= "index.html">Principal</a></li>
+            <li><a href= "producto.html">Producto</a></li>
+            <li><a href= "imagenes.html">Mockups</a></li>
+            <li><a href= "cloud.html">Cloud Pattern</a></li>
+            <li><a href= "devops.html">DevOps</a></li>
+            <li><a href= "equipo.html">Acerca de nosotros</a></li>         
+          </ul>
+        </nav>
+      </header>
+
+      <div class= "presentacion">
+      <p>Proyecto iteración 2</p>
+      </div>
+      <div class= "parrafo">
+      <p>
+        <div class="titulos"><center><b><h1>Historias de usuario</h1></b></center></div>
+        
+        
+<p><br>
+         
+<table class="egt" border="5" cellspacing="5" cellpadding="10">
+
+  <tr>
+    <th scope="row">No.</th>
+    <th>Rol</th>
+    <th>Característica/funcionalidad</th>
+    <th>Razón/Resultado</th>
+  </tr>
+
+  <tr>
+    <th>US0001</th>
+    <td>Como usuario</td>
+    <td>Quiero iniciar sesión en el sistema.</td>
+    <td>Con el fin de hacer uso de las funcionales a las que puedo acceder.</td>
+  </tr>
+
+  <tr>
+    <th>US0002</th>
+    <td>Como usuario</td>
+    <td>Quiero publicar reseñas de libros cuando estoy logueado en el sistema.</td>
+    <td>Con el fin de que otro usuario pueda leer mi reseña, hacerle comentarios y calificarla.</td>
+  </tr>
+
+  <tr>
+    <th>US0003</th>
+    <td>Como usuario</td>
+    <td>Quiero leer trabajos de otros autores.</td>
+    <td>Con el fin de poder reseñarlas o basarse en ellas para futuras obras.</td>
+  </tr>
+
+  <tr>
+    <th>US0004</th>
+    <td>Como usuario</td>
+    <td>Quiero publicar mis obras literarias.</td>
+    <td>Con el fin de que otras personas puedan leer mis obras.</td>
+  </tr>
+
+  <tr>
+    <th>US0005</th>
+    <td>Como usuario</td>
+    <td>Quiero registrarme en la plataforma del sistema.</td>
+    <td>Con el fin de hacer uso de las funcionales a las que puedo acceder.</td>
+  </tr>
+
+  <tr>
+    <th>US0006</th>
+    <td>Como usuario</td>
+    <td>Quiero poder elegir un género literario para leer o reseñar.</td>
+    <td>Con el fin de poder reseñar o leer libros del género literario de mi agrado.</td>
+  </tr>
+
+  <tr>
+    <th>US0007</th>
+    <td>Como usuario</td>
+    <td>Quiero poder guardar mis libros o reseñas favoritas.</td>
+    <td>Con el fin de poder leerlos en cualquier momento.</td>
+  </tr>
+
+  <tr>
+    <th>US0008</th>
+    <td>Como usuario</td>
+    <td>Quiero poder calificar las reseñas o obras que estén en la plataforma.</td>
+    <td>Con el fin de Dar una opinión rápida sobre los trabajos de otros usuarios</td>
+  </tr>
+
+  <tr>
+    <th>US0009</th>
+    <td>Como usuario</td>
+    <td>Quiero poder contestar los comentarios que le hagan a mis reseñas.</td>
+    <td>Con el fin de opinar sobre los comentarios recibidos.</td>
+  </tr>
+
+  <tr>
+    <th>US0010</th>
+    <td>Como usuario</td>
+    <td>Quiero poder borrar o editar  mis reseñas cuando quiera.</td>
+    <td>Con el fin de controlar su contenido.</td>
+  </tr>
+
+  <tr>
+    <th>US0011</th>
+    <td>Como usuario</td>
+    <td>Quiero poder ver el nivel de calificación de cada una de las obras que estén en la plataforma.</td>
+    <td>Con el fin de tener una medición rápida de calidad.</td>
+  </tr>
+
+</table>
+</p>
+<br>
+<br>
+
+<p>
+
+  <div class="titulos"><center><b><h1>Tareas Técnicas</h1></b></center></div>
+  <ul>
+    <li>Incluir mecanismo de autenticación para el acceso al sitio en web (plataforma) por medio de usuario y contraseña.</li>
+    <li>Diseñar e implementar pruebas unitarias y de integración.</li>
+    <li>Establecer diferentes roles y permisos de usuario.</li>
+    <li>Implementar del modelo de usuario en la base de datos.</li>    
+    <li>Crear pestaña funcional de Sign Up(Registro).</li>
+    <li>Crear pestaña funcional de Login(entrada).</li>
+    <li>Crear pestaña funcional de Log Out(Salida).</li>
+  </ul>
+</p>
+
+<div class="titulos"><center><b><h1>Requisitos no funcionales</h1></b></center></div>
+
+<p>
+El sistema de software debe cumplir ciertos requerimientos, los cuales están relacionados con el manejo de la lógica y de los datos, la eficiencia de la aplicación y la usabilidad de la misma:</p><br>
+
+<p><b>El sistema debe aplicar un algoritmo de ciframiento  asimétrico sobre la contraseña de los usuarios.</b><br>Esto con el objetivo de proteger los datos del usuario al impedir que cualquiera pueda obtener su contraseña. Las contraseñas de los usuarios son en particular importantes debido a que la mayoría de las personas usan una clave común para múltiples plataformas.</p><br>
+
+
+<div class="titulos"><center><b><h1>Web Technology Stack</h1></b></center></div>
+
+<ul>
+    <li>Back end: NodeJs</li> 
+    <li>Front End: Vue</li>
+    <li>VCS: Github<a href="https://github.com/Heldeg/Dynamo.git"> ir a repositorio Github del equipo</a></li>
+    <li>User Stories Tracker: Trello <a href="https://trello.com/b/hZEx61mu/bienvenido-a-trello"> ir a sprint backlog</a></li>    
+</ul>
+
+<br>
+        <center>
+          <img src="images/herramientas.jpg" width="800" height="200">
+        </center>
+
+ </div>
+           
+    </body>
+  </html>
